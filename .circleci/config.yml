@@ -237,7 +237,7 @@ jobs:
       - run:
           name: Cloning
           command: |
-            git clone https://github.com/ipfs/go-ipfs-http-client.git
+            git clone https://github.com/ipfs/go-ipfs-http-client.git@aa44d1ae1463bd7702b47b3413f85bc78f7cd33a
             git -C go-ipfs-http-client log -1
       - restore_cache:
           keys:
